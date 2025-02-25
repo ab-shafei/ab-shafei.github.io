@@ -1,4 +1,4 @@
-import{W as h}from"./WorkList-DAr4G7w5.js";import{P as m}from"./ProjectList-DS8yYLd7.js";import{s as $,S as v}from"./SkillBlock-C1q9Rpcw.js";import{m as a}from"./media-iZHN6AWF.js";import"./techs-B9srv6pb.js";const o=4,i=16,e=({width:s=5,height:t=5}={})=>{const c=(o*2+i)*s-i,l=(o*2+i)*t-i;return`
+import{W as h}from"./WorkList-D2jSyd5O.js";import{P as m}from"./ProjectList-DS8yYLd7.js";import{s as $,S as v}from"./SkillBlock-C1q9Rpcw.js";import{m as a}from"./media-iZHN6AWF.js";import"./techs-B9srv6pb.js";const o=4,i=16,e=({width:s=5,height:t=5}={})=>{const c=(o*2+i)*s-i,l=(o*2+i)*t-i;return`
         <svg width="100%" class="dots" viewBox="0 0 ${c} ${l}">
             ${new Array(s).fill(new Array(t).fill("")).map((n,r)=>n.map((q,_)=>{const d=o+r*(o*2+i),u=o+_*(o*2+i);return`<circle cx="${d}" cy="${u}" r="${o}" />`}).join("")).join("")}
         </svg>
