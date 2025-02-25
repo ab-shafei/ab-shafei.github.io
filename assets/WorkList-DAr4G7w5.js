@@ -1,4 +1,4 @@
-import{t as c}from"./techs-B9srv6pb.js";import"./media-C0fnUOdc.js";const a=[{id:"rikaz",link:"https://rikaz.tech/",techs:["react","next","express","mySql","sequelize","redux"],hasImage:!0},{id:"treesal",link:"https://treesal.com/",techs:["vue","vuetify","pinia"],hasImage:!0}],l=({id:s},e)=>{const{hasImage:o,techs:t,link:r}=a.find(i=>i.id===s);return console.log(a),console.log(e),`
+import{t as c}from"./techs-B9srv6pb.js";import"./media-iZHN6AWF.js";const a=[{id:"rikaz",link:"https://rikaz.tech/",techs:["react","next","express","mySql","sequelize","redux"],hasImage:!0},{id:"treesal",link:"https://treesal.com/",techs:["vue","vuetify","pinia"],hasImage:!0}],l=({id:s},e)=>{const{hasImage:o,techs:t,link:r}=a.find(i=>i.id===s);return console.log(a),console.log(e),`
         <div class="work">
             ${o?`<img src="/images/works/${s}.jpeg" alt="${e[s].name}" class="work__image">`:""}
             

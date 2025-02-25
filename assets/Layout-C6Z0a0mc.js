@@ -1,4 +1,4 @@
-import{m as e}from"./media-C0fnUOdc.js";import{r as d,g as r}from"./index-D1XxWjPt.js";const o=({name:a})=>`
+import{m as e}from"./media-iZHN6AWF.js";import{r as d,g as r}from"./index-CSKshkO_.js";const o=({name:a})=>`
         <a href="${e[a]}" class="media">
             <img src="/images/icons/${a}.svg" alt="${a}" class="media__icon"/>
         </a>`,l=a=>`
