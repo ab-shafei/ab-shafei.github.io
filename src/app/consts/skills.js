@@ -13,5 +13,5 @@ export default {
     "vercel",
     "netlify",
   ],
-  framework: ["react", "next", "vue", "express", "flask", "hono"],
+  framework: ["react", "nextJs", "vue", "express", "flask", "hono"],
 };

@@ -23,7 +23,7 @@ export default {
   vercel: "Vercel",
   netlify: "Netlify",
   react: "React",
-  next: "Next",
+  nextJs: "Next.js",
   vue: "Vue",
   flask: "Flask",
   express: "Express",

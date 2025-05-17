@@ -2,14 +2,15 @@
  * @type {import("../../types/Project").Project[]}
  */
 const projects = [
-  // {
-  //   id: "chertnodes",
-  //   links: {
-  //     figma: "1149829028455305659",
-  //   },
-  //   techs: ["python", "flask", "scss"],
-  //   hasImage: true,
-  // },
+  {
+    id: "fast-food",
+    links: {
+      live: "fast-food-ecru-six.vercel.app",
+      github: "/fast-food",
+    },
+    techs: ["nextJs", "react", "ts", "tailwindCss", "shadcn"],
+    hasImage: true,
+  },
 ];
 
 export default projects;

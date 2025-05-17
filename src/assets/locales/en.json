@@ -18,9 +18,9 @@
     "framework": "Frameworks"
   },
   "projects": {
-    "chertnodes": {
-      "name": "ChertNodes",
-      "description": "Minecraft servers hosting"
+    "fast-food": {
+      "name": "Fast Food",
+      "description": "A modern web application for ordering fast food online, built with Next.js 15, React 19, and TypeScript. The application features a beautiful, responsive UI powered by Tailwind CSS that works perfectly on both desktop and mobile devices."
     }
   },
   "pages": {
