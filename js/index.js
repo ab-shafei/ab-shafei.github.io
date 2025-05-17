@@ -49,7 +49,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _proxies_media__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../proxies/media */ \"./src/app/proxies/media.js\");\n\n\nconst media = {\n  discord: {\n    id: \"717001324335464488\",\n    tag: \"alshaf3y\",\n  },\n  stackOverflow: {\n    id: \"19758208\",\n    name: \"elias\",\n  },\n  github: \"Alshafei2430\",\n  //   figma: \"elias_dev\",\n  replit: \"EliasDev\",\n  codewars: \"EliasDevis\",\n  devTo: \"eliasdevis\",\n  cssBattle: \"elias_dev\",\n  codepen: \"elias_dev\",\n  dribble: \"Elias_dev\",\n  email: \"alshafei.2430@gmail.com\",\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new Proxy(media, _proxies_media__WEBPACK_IMPORTED_MODULE_0__[\"default\"]));\n\n\n//# sourceURL=webpack://portfolio/./src/app/consts/media.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _proxies_media__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../proxies/media */ \"./src/app/proxies/media.js\");\n\n\nconst media = {\n  discord: {\n    id: \"717001324335464488\",\n    tag: \"alshaf3y\",\n  },\n  stackOverflow: {\n    id: \"19758208\",\n    name: \"elias\",\n  },\n  github: \"ab-shafei\",\n  //   figma: \"elias_dev\",\n  replit: \"EliasDev\",\n  codewars: \"EliasDevis\",\n  devTo: \"eliasdevis\",\n  cssBattle: \"elias_dev\",\n  codepen: \"elias_dev\",\n  dribble: \"Elias_dev\",\n  email: \"alshafei.2430@gmail.com\",\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new Proxy(media, _proxies_media__WEBPACK_IMPORTED_MODULE_0__[\"default\"]));\n\n\n//# sourceURL=webpack://portfolio/./src/app/consts/media.js?");
 
 /***/ }),
 
@@ -233,7 +233,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + {"src_app_views_About_js":"22eafc1eae5c9d8a4387","src_app_views_Contacts_js":"560ef71063b129da344c","src_app_views_Home_js":"cab14495d4a69b9866a7","src_app_views_PageNotFound_js":"889f973003c86d2b46df","src_app_views_Projects_js":"7d61425a0dc0fd9c2c87"}[chunkId] + ".js";
+/******/ 			return "js/" + {"src_app_views_About_js":"9fef211beeae69aa598c","src_app_views_Contacts_js":"560ef71063b129da344c","src_app_views_Home_js":"64b25a763d9e9b6b194c","src_app_views_PageNotFound_js":"889f973003c86d2b46df","src_app_views_Projects_js":"ff98896f829df2a16878"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
