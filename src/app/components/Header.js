@@ -1,7 +1,7 @@
 import routes from "@/consts/routes";
 import MediaIcon from "./MediaIcon";
 
-const paths = ["/", "/projects", "/about-me"];
+const paths = ["/", "/projects", , "/certificates", "/about-me"];
 
 export default (t) => {
   return /*html*/ `
@@ -30,10 +30,10 @@ export default (t) => {
                           .map(
                             (path) => /*html*/ `
                                 <a href="${path}" class="header__link ${
-                              window.location.pathname === path
-                                ? "header__link_active"
-                                : ""
-                            }">${t[routes[path].name]}</a>
+                                  window.location.pathname === path
+                                    ? "header__link_active"
+                                    : ""
+                                }">${t[routes[path].name]}</a>
                             `
                           )
                           .join("")}

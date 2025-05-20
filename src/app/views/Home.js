@@ -2,18 +2,19 @@ import Hero from "@/blocks/home/Hero.js";
 import Quote from "@/blocks/home/Quote.js";
 import Projects from "@/blocks/home/Projects.js";
 import Skills from "@/blocks/home/Skills.js";
+import Certificates from "@/blocks/home/Certificates.js";
 import About from "@/blocks/home/About.js";
 import Contacts from "@/blocks/home/Contacts.js";
 
-import "styles/pages/home.sass"
-
+import "styles/pages/home.sass";
 
 export default (t, locale) => {
-    return /*html*/`
+  return /*html*/ `
         ${Hero(t.hero)}
         ${Quote(t.quote)}
         ${Projects(t.projects, locale.projects)}
         ${Skills(t.skills, locale.skills)}
+        ${Certificates(t.certificates, locale.certificates)}
         ${About(t.about)}
         ${Contacts(t.contacts)}
     `;

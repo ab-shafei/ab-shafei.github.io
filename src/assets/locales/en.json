@@ -2,6 +2,7 @@
   "header": {
     "home": "home",
     "projects": "projects",
+    "certificates": "certificates",
     "about": "about-me",
     "contacts": "contacts"
   },
@@ -16,6 +17,26 @@
     "other": "Other",
     "tool": "Tools",
     "framework": "Frameworks"
+  },
+  "certificates": {
+    "frontend-developer-nanodegree": {
+      "name": "Frontend Developer Nanodegree"
+    },
+    "fullstack-developer-nanodegree": {
+      "name": "Fullstack Developer Nanodegree"
+    },
+    "design-patterns": {
+      "name": "Design Patterns"
+    },
+    "object-orianted-design": {
+      "name": "Object Orianted Design"
+    },
+    "fullstack-development": {
+      "name": "Design Patterns"
+    },
+    "machine-learning-nanodegree": {
+      "name": "Machine Learning Nanodegree"
+    }
   },
   "projects": {
     "fast-food": {
@@ -42,6 +63,11 @@
       "skills": {
         "title": "skills"
       },
+      "certificates": {
+        "title": "certificates",
+        "button": "View all"
+      },
+
       "about": {
         "title": "about",
         "description": [
@@ -63,6 +89,11 @@
       "decent": "decent",
       "small": "small",
       "inProgress": "unfinished"
+    },
+    "certificates": {
+      "description": "All of my certificates",
+      "udacity": "udacity",
+      "coursera": "coursera"
     },
     "about": {
       "description": "Who am i",

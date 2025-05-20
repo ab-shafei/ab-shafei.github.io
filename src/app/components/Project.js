@@ -4,43 +4,46 @@ import techs from "@/consts/techs";
 import media from "@/consts/media";
 
 function mapLinks(links) {
-    function map(link) {
-        let href =
-        "https://" + (link === "live" ? "" : websites[link]) + links[link];
+  function map(link) {
+    let href =
+      "https://" + (link === "live" ? "" : websites[link]) + links[link];
 
-        if (link === "figma") href = `https://figma.com/community/file/${links[link]}`
-        if (link === "github" && links[link].startsWith("/")) href = media.github + links[link]
+    if (link === "figma")
+      href = `https://figma.com/community/file/${links[link]}`;
+    if (link === "github" && links[link].startsWith("/"))
+      href = media.github + links[link];
 
+    const className = link === "cached" ? "button__secondary" : "";
+    const name = `${link[0].toUpperCase()}${link.slice(1)}`;
 
-        const className = link === "cached" ? "button__secondary" : "";
-        const name = `${link[0].toUpperCase()}${link.slice(1)}`;
+    return /*html*/ `<a href="${href}" class="button ${className}">${name} =></a>`;
+  }
 
-        return /*html*/ `<a href="${href}" class="button ${className}">${name} =></a>`;
-    }
-
-    return Object.keys(links).map(map).join("");
+  return Object.keys(links).map(map).join("");
 }
 
 export default ({ id }, t) => {
-    const { hasImage, techs: projectTech, links } = projects.find(
-        (project) => project.id === id
-    );
+  const {
+    hasImage,
+    techs: projectTech,
+    links,
+  } = projects.find((project) => project.id === id);
 
-    return /*html*/ `
+  return /*html*/ `
         <div class="project">
             ${
-                hasImage
-                    ? `<img src="/images/projects/${id}.webp" alt="${t[id].name}" class="project__image">`
-                    : ""
+              hasImage
+                ? `<img src="/images/projects/${id}.webp" alt="${t[id].name}" class="project__image">`
+                : ""
             }
             
             <ul class="project__techs">
                 ${projectTech
-                    .map(
-                        (tech) =>
-                            /*html*/ `<li class="project__tech">${techs[tech]}</li>`
-                    )
-                    .join("")}
+                  .map(
+                    (tech) =>
+                      /*html*/ `<li class="project__tech">${techs[tech]}</li>`
+                  )
+                  .join("")}
             </ul> 
 
             <div class="project__content">
